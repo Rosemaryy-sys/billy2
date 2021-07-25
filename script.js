@@ -74,7 +74,7 @@ else{
 
    window.clearInterval(interval);
    document.getElementById("startStop").innerHTML = "DOUBLE THE SPEED EVEN MORE";
-   status = "start";
+   status = "stopped";
 
    }
 
