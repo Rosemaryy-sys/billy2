@@ -66,15 +66,15 @@ function startStop(){
     
     //Start the stopwatch (by calling the setInterval() function)
     interval = window.setInterval(stopWatch, 1000);
-    document.getElementById("startStop").innerHTML = "no escape.";
+    document.getElementById("startStop").innerHTML = "DOUBLE THE SPEED MORE";
     status = "stopped";
 }
 else{
 
 
    window.clearInterval(interval);
-   document.getElementById("startStop").innerHTML = "Start";
-   status = "stopped";
+   document.getElementById("startStop").innerHTML = "DOUBLE THE SPEED EVEN MORE";
+   status = "start";
 
    }
 
